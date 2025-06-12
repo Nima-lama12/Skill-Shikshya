@@ -1,0 +1,114 @@
+#faqs{
+    padding-top: 60px;
+    padding-bottom: 60ox;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+#faqs-text1{
+    color: var(--Black-Black900, #414141);
+    font-family: "Outfit";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#faqs-text2{
+    color: var(--Base-Base-Black, #2B2B2B);
+    font-family: "outfit";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+
+#faqs-text2 em{
+    color: var(--Primary-Primary500, #1DA077);
+    font-family: "outfit";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+#faqs-text3{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#faqs-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#faqs-card{
+    /* width: 384px;
+    padding: 21px 36px 14px 37px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: #FFF; */
+    width: 384px;
+    height: 155px;
+    box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+    border-radius: 32px;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+
+#faqs-card-text{
+    width: 311px;
+    flex-shrink: 0;
+    color: var(--Base-Base-Black, #2B2B2B);
+    font-family: "Outfit";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read-more{
+    color: var(--Primary-Primary500, #1DA077);
+    font-family: "Outfit";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.faqs-card-text2{
+    width: 293px;
+    flex-shrink: 0;
+    color: var(--Base-Base-Black, #2B2B2B);
+    font-family: "outfit";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+
+#faqs-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.faqs-card2{
+    display: flex;
+    width: 384px;
+    padding: 36px 45px 47px 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}

@@ -1,0 +1,61 @@
+header{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Base-Base-White, #FFFFFF);
+}
+
+#nav-menu{
+    width:100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+backdrop-filter: blur(0px);
+}
+
+#skill-logo{
+    width: 210.825px;
+    height: 55px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#links a{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-decoration: none;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#access{
+    border: solid;
+    border-color: transparent;
+    height: 47px;
+    color: var(--Base-Base-White, #FAFAFA);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: var(--Gradient, linear-gradient(180deg, #1DAA7E 0%, #1A8463 100%));
+}

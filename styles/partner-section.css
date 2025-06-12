@@ -1,0 +1,36 @@
+#our-prtners{
+    display: flex;
+    padding: 60px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#detail-of-partner{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#detail-of-partner em{
+    color: var(--Primary-Primary500, #1DA077);
+    font-family: "Outfit";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+#partner-logo{
+    display: flex;
+    width: 600px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

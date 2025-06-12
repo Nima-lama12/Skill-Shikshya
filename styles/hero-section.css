@@ -1,0 +1,201 @@
+#main{
+    height: 100vh;
+    width: 1440px;
+    max-width: 1440px;
+    background-image: url("images/BACKGROUND.png");
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+.floats-main{
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes floating {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(20px);
+    }
+    
+}
+
+#something{
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 150px;
+    top: 197.828px;
+}
+
+#vuejs{
+    /* width: 40.881px;
+    height: 55px;
+    flex-shrink: 0; */
+    position: absolute;
+    left: 160px;
+    top: 437.82px;
+}
+
+#like{
+    position: absolute;
+    top: 547.82px;
+    left: 390px;
+}
+
+#html-logo{
+    position: absolute;
+    top: 547.82px;
+    right: 370px;
+}
+
+#react{
+    position: absolute;
+    top: 387.82px;
+    right: 110px;
+}
+
+#pencil-meter{
+    position: absolute;
+    top: 127px;
+    right: 197px;
+}
+
+#hero{
+    width:100vw;
+    /* position: relative; */
+    margin-left: 105px;
+    margin-top: 130px;
+    width: 1190px;
+    height: 395px;
+
+}
+
+.hero-font{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#hero-main-text{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#greenish{
+    height: 64px;
+    background: var(--Gradient, linear-gradient(180deg, #1DAA7E 0%, #1A8463 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.greenish-text{
+    background: var(--Gradient, linear-gradient(180deg, #1DAA7E 0%, #1A8463 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero-second-text{
+    color: var(--Black-Black800, #565656);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+#mentor-ability{
+    color: var(--Base-Base-Black, #2B2B2B);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mentor{
+    text-align: center;
+}
+
+#image1{
+    z-index: 1;
+    position: relative;
+    left: 40px;
+}
+
+#image2{
+    z-index: 2;
+    position: relative;
+    left: 25px;
+}
+
+#image3{
+    z-index: 3;
+    position: relative;
+    left: 10px;
+}
+
+#image4{
+    z-index: 4;
+    position: relative;
+    right: 10px;
+}
+
+#image5{
+    z-index: 5;
+    position: relative;
+    right: 25px;
+}
+
+#image6{
+    z-index: 6;
+    position: relative;
+    right: 60px;
+}
+
+#image1:hover{
+    z-index: 8;
+}
+
+#image2:hover{
+    z-index: 8;
+}
+
+#image3:hover{
+    z-index: 8;
+}
+
+#image4:hover{
+    z-index: 8;
+}
+
+#image5:hover{
+    z-index: 8;
+}
+
+#image6:hover{
+    z-index: 8;
+}
+
+#mentor-side{
+    z-index: 7;
+}

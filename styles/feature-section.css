@@ -1,0 +1,70 @@
+#feature-section{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    padding-right: 112px;
+    display: flex;
+    width: 1440px;
+    padding: 120px 0px 60px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill-journey{
+    color: var(--Black-Black900, #414141);
+    font-family: "Outfit";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#feature-section2{
+    display: flex;
+    width: 1213px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+#skill-journey2{
+    color: var(--Primary-Primary500, #1DA077);
+    font-family: "outfit";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+
+#first-card{
+    width: 592px;
+    height: 341px;
+}
+
+#second-card{
+    width: 592px;
+    height: 351px;
+}
+
+#card-images{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+#card-images2{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+#third-card{
+    width: 592px;
+    height: 341px;
+    flex-shrink: 0;
+}
+
+#fourth-card{
+    width: 592px;
+    height: 351px;
+    flex-shrink: 0;
+}
